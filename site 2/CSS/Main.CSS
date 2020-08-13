@@ -1,0 +1,21 @@
+*{padding: 0;margin: 0;box-sizing:border-box; }
+p{background: #fff;}
+main{width: 70%;padding: 50px;margin: auto;background-color: #fff;display:flex; flex-wrap:wrap;justify-content: center;box-shadow:0 0 10px 1px rgba(0,0,0,0,2);}
+@font-face {font-family: Roboto;src:url(../fonts/Roboto-Regular.ttf);}
+body {background-color: #efefef;font-family: Roboto;}
+.Photo {width: calc(50% - 30px) ;height: calc((35vw - 30px) / 16 * 9); margin: 15px;background-color: orange;background-position: center;background-size: cover; transition: all 0.5s ease; box-shadow: 0 0 10px 1px rgba (0,0,0,0,2);}
+h1 {width: 100%;text-align: center;font-size: 40px;}
+.Photo:hover {transform: rotate(3deg) scale(1.07); box-shadow: 0 0 20px 1px rgba (0,0,0,0,4);}
+h1 {width: 100%;text-align: center;font-size: 40px;} 
+.Photo1{background-image: url(../Img/img12.jpeg); }
+.Photo2{background-image: url(../Img/img2.jpeg); }
+.Photo3{background-image: url(../Img/img3.jpeg); }
+.Photo4{background-image: url(../Img/img4.jpeg); }
+.Photo5{background-image: url(../Img/img5.jpeg); }
+.Photo6{background-image: url(../Img/img6.jpeg); }
+.Photo7{background-image: url(../Img/img7.jpeg); }
+.Photo8{background-image: url(../Img/img8.jpeg); }
+.Photo9{background-image: url(../Img/img9.jpeg); }
+.Photo10{background-image: url(../Img/img10.jpeg); }
+.Photo11{background-image: url(../Img/img11.jpg); }
+.Photo12{background-image: url(../Img/1.jpg); }
